@@ -1,6 +1,14 @@
 # partial2js
 
-Compile angular.js partials to JS
+Compile angular.js partials to JavaScript angular modules. 
+
+## features
+
+* enables pre-loading of all partials in one js-file
+* generates deploy-ready angular modules
+* very flexible, supports 'overlays'
+* rename templates in build process
+* support streams
 
 ## with gulp
 
