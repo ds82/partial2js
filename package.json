@@ -1,7 +1,7 @@
 {
   "name": "partial2js",
   "version": "0.0.1",
-  "description": "Packs angular templates into a javascript file",
+  "description": "Compiles angular partials to minified single-file angular JS modules",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node spec"
