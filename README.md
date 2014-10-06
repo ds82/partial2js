@@ -10,6 +10,12 @@ Compile angular.js partials to JavaScript angular modules.
 * rename templates in build process
 * support streams
 
+## tests
+
+```js
+npm test
+```
+
 ## with gulp
 
 ```js
