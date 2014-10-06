@@ -4,7 +4,7 @@
   "description": "Packs angular templates into a javascript file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine-node spec"
   },
   "author": "Dennis Sänger <npm14@mail.ds82.de>",
   "license": "MIT",
@@ -14,6 +14,7 @@
     "js-string-escape": "^1.0.0"
   },
   "devDependencies": {
+    "jasmine-node": "^1.14.5",
     "proxyquire": "^1.0.1"
   }
 }
